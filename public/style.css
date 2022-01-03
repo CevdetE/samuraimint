@@ -26,9 +26,6 @@ html {
     position: relative;
     width: 100%;
     height: 100vh;
-    animation-name: example;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
 }
 
 .main-backgroundimage img {
@@ -41,7 +38,6 @@ html {
     background-size: cover;
     object-fit: cover;
     object-position: 30% 50%;
-    transition: all 2s ease-in;
 
 }
 
