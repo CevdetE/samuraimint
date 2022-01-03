@@ -1,0 +1,438 @@
+body {
+    font-family: futura-pt, sans-serif;
+    /* overflow-y: hidden; */
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+@keyframes example {
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.main-backgroundimage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.main-backgroundimage img {
+    position: relative;
+    z-index: -1;
+    width: inherit;
+    height: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    object-position: 30% 50%;
+    transition: all 2s ease-in;
+
+}
+
+.container {
+    display: flex;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.Main-header {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.Main-header .container {
+    padding-top: 15px;
+    align-items: center;
+
+}
+
+.Header-logo {
+    max-width: 200px;
+    width: 200px;
+}
+
+.Header-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.Header-menu {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.Header-menu .background-switch {
+    width: 50px;
+    height: 50px;
+    margin-right: 40px;
+    background-image: url("img/switchOff.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.Header-menu .menu-user .menu-user-item {
+    display: inline-block;
+    margin-right: 32px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.Header-menu .menu-user .menu-user-item.active:after {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 100%;
+    background-color: rgb(210, 64, 52);
+    border-radius: 4px;
+}
+
+.Header-menu .menu-user .menu-user-item:after {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    background-color: rgb(210, 64, 52);
+    transition: width .3s ease-in-out;
+    border-radius: 4px;
+}
+
+.Header-menu .menu-user .menu-user-item:hover:after,
+.Header-menu .menu-user .menu-user-item:focus:after {
+    width: 100%;
+}
+
+.Header-menu .menu-user .menu-user-button {
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    background-color: #d24034;
+    border-radius: 8px;
+    padding: 6px 16px;
+
+}
+.Header-menu .menu-user .hamburger-menu {
+    display: none;
+    width: 36px;
+    height: 36px;
+    background:transparent ;
+}
+.Header-menu .menu-user .hamburger-menu img {
+    width: inherit;
+    height: inherit;
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    position: fixed;
+    background-color: rgb(17, 17, 22);
+    transform: translateX(-10000px);
+    transition: all 2s ease-in;
+}
+
+.sidebar .Header-logo {
+    margin-bottom: 48px;
+}
+
+.sidebar .Header-logo img {
+    padding: 8px 0;
+}
+
+.sidebar .Header-menu {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebar .menu-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar .Header-menu .menu-user .menu-user-item {
+    margin-right: 0;
+    margin-bottom: 32px;
+}
+
+.sidebar .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 36px;
+    width: 1em;
+    height: 1em;
+}
+
+.sidebar .close img {
+    width: inherit;
+    height: inherit;
+}
+
+.main-backgroundimage .arrow {
+    position: absolute;
+    max-height: 60px;
+    bottom: 0px;
+    left: 50%;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+.main-backgroundimage .arrow:hover {
+    transform: translateY(-10px);
+}
+
+.Main {
+    position: relative;
+}
+
+.Main .Main-aboutUs {
+    width: 100%;
+    background-color: rgb(17, 17, 22);
+    ;
+}
+
+.Main .container {
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Main .Main-aboutUs .container {
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px 96px 0px;
+}
+
+.Main .Main-aboutUs .article .title {
+    color: #fff;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.Main .Main-aboutUs .article .text {
+    font-weight: lighter;
+    max-width: 476px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.Main .Main-aboutUs .article .text .bold {
+    font-weight: bold;
+}
+
+.Main .Main-aboutUs .video {
+    margin-top: 68px;
+    margin-bottom: 1em;
+    padding: 0 10px;
+}
+
+.Main .Main-mint {
+    width: 100%;
+    background-color: rgb(8, 8, 8);
+    color: #fff;
+    padding-top: 48px;
+    padding-bottom: 96px;
+}
+
+.Main .Main-mint .container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.Main .Main-mint .title {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 300;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Main .Main-mint .stock {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-top: 24px;
+}
+
+.Main .Main-mint .stock .number {
+    font-weight: lighter;
+}
+
+.Main .Main-mint .stock .bold {
+    font-weight: bolder;
+}
+
+.Main .Main-mint .sales {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 64px;
+}
+
+.Main .Main-mint .sales .count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Main .Main-mint .sales .count .minus {
+    padding-bottom: 10px;
+}
+
+.opacity {
+    opacity: 0.3;
+}
+
+.Main .Main-mint .sales .count .minus,
+.Main .Main-mint .sales .count .plus {
+    background: none;
+    border: none;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    cursor: pointer;
+    line-height: 20px;
+    font-size: 46px;
+    font-weight: lighter;
+}
+
+.Main .Main-mint .sales .count .count-number {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.Main .Main-mint .sales .sales-btn {
+    cursor: pointer;
+    padding: 4px 16px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    border-radius: 8px;
+    margin-left: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #D92924;
+}
+
+}
+
+.Main .Main-mint .description {
+    font-size: 17px;
+}
+.avatar{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+}
+.avatar .left img, .avatar .right img{
+    width: 160px;
+    max-width: 160px;
+    position: relative;
+}
+
+.avatar .left img{
+    right: 1000px;
+    transition: all 0.2s ease;
+
+}
+
+.avatar .right img{
+    left: 1000px;
+    transition: all 0.2s ease-in;
+}
+@media (max-width: 576px) {
+    .Main .Main-mint .stock .number {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .Main .Main-mint .stock {
+        text-align: center;
+    }
+
+    .Main .Main-mint .sales {
+        flex-direction: column;
+    }
+
+    .Main .Main-mint .sales .sales-btn {
+        margin-top: 10px;
+    }
+
+    .Main .Main-mint .sales .count .count-number {
+        margin-left: 7px;
+        margin-right: 5px;
+    }
+
+    .Header-menu {
+        margin-left: 0;
+    }
+
+    .Main-header .container  {
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .Main .Main-aboutUs .video video{
+        width: 100%;
+         height: auto;
+    }
+    .avatar{
+        display: none;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 825px) {
+    .container .Header-menu .menu-user .menu-user-item,
+    .container .Header-menu .menu-user .menu-user-button{
+        display: none;
+    }
+    .Header-menu .menu-user .hamburger-menu{
+        display: block;
+    }
+    .avatar{
+        display: none;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 1243px) {
+    .Main .Main-aboutUs .container {
+        flex-direction: column;
+    }
+    .avatar{
+        display: none;
+    }
+}
