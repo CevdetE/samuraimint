@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 contract NFT is ERC721URIStorage {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
-    address public owner=0xCDeF3CC7cDBdC8695674973Ad015D9f2B01dD4C4;
+    address public owner=0x6C1f9eeC16D6A479CA65758B43aA9Be3966bBc8D;
     uint public normalPrice =20000000000000000; //0.02 eth (one nft)
     uint public whiteListPrice=10000000000000000; //0.01 eth
     uint public maxMint=100;
