@@ -310,22 +310,7 @@ minusBtn.addEventListener("click", () => {
               <div class="description">The remaining ones are for airdroppers!</div>
           </div>
       </section>
-      <section class="Main-aboutUs">
-          <div class="container">
-              <div class="article">
-                  <div class="title">Meet The Undefeated Samurai</div>
-                  <p class="text"><span class="bold">Undefeated Samurai</span> is a collection of 3,000 unique, NFTs, that are all different stats and outlook Undefeated Samurai is on ERC-721. All of them are unique, but some are simply legendary. You can check the Rarity Ranking & Distribution below for the details!</p>
-              </div>
-              <div class="video">
-                  <video width="500" height="332" controls>
-                      <source src="movie.mp4" type="video/mp4"/>
-                      <source src="movie.ogg" type="video/ogg"/>
-                  </video>
-              </div>
-          </div>
-      </section>
-     
-      <div class="avatar">
+ <div class="avatar">
           <div class="left">
               <img src="img/avatar.png" />
               <img src="img/avatar.png" />
@@ -341,6 +326,22 @@ minusBtn.addEventListener("click", () => {
               <img src="img/avatar.png" />
           </div>
       </div>
+      <section class="Main-aboutUs">
+          <div class="container">
+              <div class="article">
+                  <div class="title">Meet The Undefeated Samurai</div>
+                  <p class="text"><span class="bold">Undefeated Samurai</span> is a collection of 3,000 unique, NFTs, that are all different stats and outlook Undefeated Samurai is on ERC-721. All of them are unique, but some are simply legendary. You can check the Rarity Ranking & Distribution below for the details!</p>
+              </div>
+              <div class="video">
+                  <video width="500" height="332" controls>
+                      <source src="movie.mp4" type="video/mp4"/>
+                      <source src="movie.ogg" type="video/ogg"/>
+                  </video>
+              </div>
+          </div>
+      </section>
+     
+     
   </main>
 
    </>
