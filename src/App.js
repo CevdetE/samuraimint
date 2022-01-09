@@ -307,7 +307,7 @@ minusBtn.addEventListener("click", () => {
                   </div>
                   <button class="sales-btn" onClick={mintHandler}>MINT</button>
               </div>
-              <div class="description">The remaining ones are for airdroppers!</div>
+              <div class="description">The remaining ones are for airdropps!</div>
           </div>
       </section>
  <div class="avatar">
