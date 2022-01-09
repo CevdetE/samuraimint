@@ -254,7 +254,7 @@ html {
 
 .Main .Main-mint {
     width: 100%;
-    background-color: rgb(8, 8, 8);
+    background-color: #515d756e;
     color: #fff;
     padding-top: 48px;
     padding-bottom: 96px;
@@ -263,6 +263,7 @@ html {
 .Main .Main-mint .container {
     flex-direction: column;
     align-items: center;
+    margin-top: 100px;
 }
 
 .Main .Main-mint .title {
