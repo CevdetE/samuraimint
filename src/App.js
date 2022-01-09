@@ -257,7 +257,7 @@ minusBtn.addEventListener("click", () => {
               <a href="https://undefeatedsamurai.com/#home" target="_blank" class="menu-user-item active">Home</a>
                     <a href="https://undefeatedsamurai.com/#story" target="_blank" class="menu-user-item">Story</a>
                     <a href="https://undefeatedsamurai.com/#roadmap" target="_blank" class="menu-user-item">Roadmap</a>
-                    <a href="https://undefeatedsamurai.com/#whitepaper" target="_blank" class="menu-user-item">White Paper</a>
+                    <a href="https://whitepaper.undefeatedsamurai.com" target="_blank" class="menu-user-item">White Paper</a>
                     <a href="https://opensea.io/" class="menu-user-item">Opensea</a>
                   <button class="menu-user-button" onClick={walletConnect}>{nftData?nftData.userWallet:"Connect"}  </button>
                   <button class="hamburger-menu">
@@ -275,7 +275,7 @@ minusBtn.addEventListener("click", () => {
               <a href="https://undefeatedsamurai.com/#home" target="_blank" class="menu-user-item active">Home</a>
                   <a href="https://undefeatedsamurai.com/#story" target="_blank" class="menu-user-item">Story</a>
                   <a href="https://undefeatedsamurai.com/#roadmap" target="_blank" class="menu-user-item">Roadmap</a>
-                  <a href="https://undefeatedsamurai.com/#whitepaper" target="_blank" class="menu-user-item">White Paper</a>
+                  <a href="https://whitepaper.undefeatedsamurai.com" target="_blank" class="menu-user-item">White Paper</a>
                   <a href="https://opensea.io/" class="menu-user-item">Opensea</a>
                   <button class="menu-user-button" onClick={walletConnect}>{nftData?nftData.userWallet:"Connect"}  </button>
               </nav>
