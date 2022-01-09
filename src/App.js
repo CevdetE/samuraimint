@@ -257,7 +257,7 @@ minusBtn.addEventListener("click", () => {
               <a href="https://undefeatedsamurai.com/#home" target="_blank" class="menu-user-item active">Home</a>
                     <a href="https://undefeatedsamurai.com/#story" target="_blank" class="menu-user-item">Story</a>
                     <a href="https://undefeatedsamurai.com/#roadmap" target="_blank" class="menu-user-item">Roadmap</a>
-                    <a href="https://whitepaper.undefeatedsamurai.com" target="_blank" class="menu-user-item">White Paper</a>
+                    <a href="https://undefeatedsamurai.com/#whitepaper" target="_blank" class="menu-user-item">White Paper</a>
                     <a href="https://opensea.io/" class="menu-user-item">Opensea</a>
                   <button class="menu-user-button" onClick={walletConnect}>{nftData?nftData.userWallet:"Connect"}  </button>
                   <button class="hamburger-menu">
@@ -275,7 +275,7 @@ minusBtn.addEventListener("click", () => {
               <a href="https://undefeatedsamurai.com/#home" target="_blank" class="menu-user-item active">Home</a>
                   <a href="https://undefeatedsamurai.com/#story" target="_blank" class="menu-user-item">Story</a>
                   <a href="https://undefeatedsamurai.com/#roadmap" target="_blank" class="menu-user-item">Roadmap</a>
-                  <a href="https://whitepaper.undefeatedsamurai.com" target="_blank" class="menu-user-item">White Paper</a>
+                  <a href="https://undefeatedsamurai.com/#whitepaper" target="_blank" class="menu-user-item">White Paper</a>
                   <a href="https://opensea.io/" class="menu-user-item">Opensea</a>
                   <button class="menu-user-button" onClick={walletConnect}>{nftData?nftData.userWallet:"Connect"}  </button>
               </nav>
@@ -285,7 +285,13 @@ minusBtn.addEventListener("click", () => {
           </div>
       </aside>
   </header>
- <main class="Main">
+  <div class="main-backgroundimage">
+      <img src="img/bg-dark.jpg" class="main-img"/>
+      <div class="arrow">
+          <img src="img/arrow.svg" alt=""/>
+      </div>
+  </div>
+  <main class="Main">
        <section class="Main-mint">
           <div class="container">
               <div class="title"> Mint your <span class="bold">Undefeated Samurai while you can</span></div>
@@ -304,8 +310,6 @@ minusBtn.addEventListener("click", () => {
               <div class="description">The remaining ones are for airdrops!</div>
           </div>
       </section>
-
-
  <div class="avatar">
           <div class="left">
               <img src="img/avatar.png" />
