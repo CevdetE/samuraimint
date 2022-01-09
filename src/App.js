@@ -285,13 +285,7 @@ minusBtn.addEventListener("click", () => {
           </div>
       </aside>
   </header>
-  <div class="main-backgroundimage">
-      <img src="img/bg-dark.jpg" class="main-img"/>
-      <div class="arrow">
-          <img src="img/arrow.svg" alt=""/>
-      </div>
-  </div>
-  <main class="Main">
+ <main class="Main">
        <section class="Main-mint">
           <div class="container">
               <div class="title"> Mint your <span class="bold">Undefeated Samurai while you can</span></div>
@@ -310,6 +304,13 @@ minusBtn.addEventListener("click", () => {
               <div class="description">The remaining ones are for airdrops!</div>
           </div>
       </section>
+  <div class="main-backgroundimage">
+      <img src="img/bg-dark.jpg" class="main-img"/>
+      <div class="arrow">
+          <img src="img/arrow.svg" alt=""/>
+      </div>
+  </div>
+
  <div class="avatar">
           <div class="left">
               <img src="img/avatar.png" />
