@@ -253,10 +253,10 @@ html {
 
 .Main .Main-mint {
     width: 100%;
-    background-color: rgb(8, 8, 8);
+    background-color: rgb(40, 40, 40);
     color: #fff;
-    padding-top: 150px;
-    padding-bottom: 96px;
+    padding-top: 250px;
+    padding-bottom: 420px;
 }
 
 .Main .Main-mint .container {
