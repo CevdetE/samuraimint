@@ -285,12 +285,6 @@ minusBtn.addEventListener("click", () => {
           </div>
       </aside>
   </header>
-  <div class="main-backgroundimage">
-      <img src="img/bg-dark.jpg" class="main-img"/>
-      <div class="arrow">
-          <img src="img/arrow.svg" alt=""/>
-      </div>
-  </div>
   <main class="Main">
        <section class="Main-mint">
           <div class="container">
@@ -328,6 +322,12 @@ minusBtn.addEventListener("click", () => {
       </div>
      
   </main>
+<div class="main-backgroundimage">
+      <img src="img/bg-dark.jpg" class="main-img"/>
+      <div class="arrow">
+          <img src="img/arrow.svg" alt=""/>
+      </div>
+  </div>
 
    </>
   );
