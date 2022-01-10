@@ -285,14 +285,15 @@ minusBtn.addEventListener("click", () => {
           </div>
       </aside>
   </header>
-<div class="main-backgroundimage"><img src="img/bg-dark.jpg" class="main-img"><div class="arrow"><img src="img/arrow.svg" alt=""></div></div>
-
+  <div class="main-backgroundimage">
+      <img src="img/bg-dark.jpg" class="main-img"/>
+      <div class="arrow">
+          <img src="img/arrow.svg" alt=""/>
+      </div>
+  </div>
   <main class="Main">
        <section class="Main-mint">
           <div class="container">
-              <div class="main-gif">
-                  <img src="img/Mint-Gif.gif" />
-                  </div>
               <div class="title"> Mint your <span class="bold">Undefeated Samurai while you can</span></div>
               <div class="stock">
                   <span class="number">{contractData?.totalMint} / {contractData?.maxMint} </span>
