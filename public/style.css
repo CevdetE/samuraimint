@@ -254,7 +254,7 @@ html {
 
 .Main .Main-mint {
     width: 100%;
-    background-color: #515d756e;
+    background-image: url("img/bg-dark.jpg");
     color: #fff;
     padding-top: 48px;
     padding-bottom: 96px;
