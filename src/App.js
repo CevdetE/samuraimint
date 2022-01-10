@@ -294,6 +294,9 @@ minusBtn.addEventListener("click", () => {
   <main class="Main">
        <section class="Main-mint">
           <div class="container">
+              <div class="main-gif">
+                  <img src="img/Mint-Gif.gif" />
+                  </div>
               <div class="title"> Mint your <span class="bold">Undefeated Samurai while you can</span></div>
               <div class="stock">
                   <span class="number">{contractData?.totalMint} / {contractData?.maxMint} </span>
