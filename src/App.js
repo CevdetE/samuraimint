@@ -324,9 +324,6 @@ minusBtn.addEventListener("click", () => {
   </main>
 <div class="main-backgroundimage">
       <img src="img/bg-dark.jpg" class="main-img"/>
-      <div class="arrow">
-          <img src="img/arrow.svg" alt=""/>
-      </div>
   </div>
 
    </>
