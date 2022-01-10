@@ -204,7 +204,6 @@ html {
 
 .Main {
     position: relative;
-    margin-top: auto;
 }
 
 .Main .Main-aboutUs {
@@ -254,19 +253,15 @@ html {
 
 .Main .Main-mint {
     width: 100%;
-    height 100%;
-    background-color: #515d756e;
+    background-color: rgb(8, 8, 8);
     color: #fff;
-    padding-top: 300px;
-    padding-bottom: 400px;
-    background-size: auto;
+    padding-top: 48px;
+    padding-bottom: 96px;
 }
 
 .Main .Main-mint .container {
     flex-direction: column;
     align-items: center;
-    margin-top: 440px;
-    margin-bottom:100px;
 }
 
 .Main .Main-mint .title {
