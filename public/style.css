@@ -261,6 +261,7 @@ html {
 }
 
 .Main .Main-mint .container {
+    text-shadow: 2px 2px 2px #171717;
     flex-direction: column;
     align-items: center;
 }
